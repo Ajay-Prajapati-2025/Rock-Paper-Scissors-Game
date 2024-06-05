@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Additional meta tags for the SEO -->
+    <meta name="description" content="this is rock-paper-scissors game">
+    <meta name="keywords" content="HTML, CSS, JS">
+    <meta name="author" content="Ajay Prajapati">
+
+    <title>Rock Paper Scissors</title>
+
+    <!-- linking the css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <!-- Three options for the Rock, Paper and Scissors -->
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png" alt="Rock symbol">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png" alt="paper symbol">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./images/scissors.png" alt="scissors symbol">
+        </div>
+    </div>
+
+    <!-- Calculate the score of person and computer -->
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+
+    <!-- Message print for the win, Loose & draw the game -->
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+    <!-- linking the JS file -->
+    <script src="app.js"></script>
+</body>
+</html>
